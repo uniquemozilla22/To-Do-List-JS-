@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yogesh To-do List</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="app.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Yogesh's To Do Work:</h1>
+    </header>
+    <form action="">
+        <input type="text" class="todo-input">
+        <button class="todo-button" type="submit">
+            <i class="fas fa-plus-square"></i>
+        </button>
+
+        <div class="select">
+            <select name="todos" class="filter-todo">
+                <option value="all">ALL</option>
+                <option value="completed">Completed</option>
+                <option value="uncompleted">Uncompleted</option>
+            </select>
+        </div>
+        
+    </form>
+    <div classs="todo-container">
+        <ul class="todo-list"></ul>
+    </div>
+    <script src="https://kit.fontawesome.com/7680405be5.js" crossorigin="anonymous"></script>
+</body>
+</html>
